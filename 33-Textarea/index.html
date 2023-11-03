@@ -1,0 +1,29 @@
+<!-- Create a registration form in the body of the page -->
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Textarea</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+  </head>
+  
+  <body>
+  	<form method="post" action="https://formdump.codeinstitute.net">
+  	    <label for="feedback">Feedback</label>
+  	    <br>
+		<!-- 
+			The <textarea> tag defines a multi-line text input control.
+			The <textarea> element is often used in a form, to collect user inputs like comments or reviews.
+			A text area can hold an unlimited number of characters, and the text renders in a fixed-width font (usually Courier).
+			The size of a text area is specified by the cols and rows attributes (or with CSS).
+			The name attribute is needed to reference the form data after the form is submitted (if you omit the name attribute, no data from the text area will be submitted).
+			The id attribute is needed to associate the text area with a label. 
+		-->
+  	    <textarea id="feedback" name="feedback" rows="10" cols="50" value="feedback" placeholder="Your Feedback"></textarea>
+  	    <br>
+  	    <input type="submit">
+  	</form>
+	 
+
+  </body>
+</html>
+
