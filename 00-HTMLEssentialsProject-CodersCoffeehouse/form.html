@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Win a years supply of coffee from Coders Coffeehouse</title>
+       <link href="style.css" rel="stylesheet" type="text/css" /> 
+    </head>
+
+    <body>
+        <!-- Header start-->
+        <header>
+            <h1>Win a years supply of coffee from Coders Coffeehouse</h1>
+            <p>Complete our survey for your chance to win!</p>
+        </header>
+        <!-- Header end-->
+
+        <hr>
+        <!-- Navigation menu start-->
+        <nav>
+            <a href="index.html#home">Home</a>
+            <a href="index.html#drinks">Drinks Menu</a>
+            <a href="index.html#contact">Contact</a>
+            <a href="form.html">Win Free Coffee</a>
+        </nav>
+        <!-- Navigation menu end-->
+        
+        <!-- Form start-->
+        <form action="https://formdump.codeinstitute.net" method="POST">
+            <!-- Details section-->
+            <fieldset>
+                <legend>Your details</legend>
+                <div>
+                    <label for="name-field">Name</label>
+                    <input id="name-field" type="text" name="name-field" placeholder="Your name" required>
+                </div>
+                <div>
+                    <label for="email-field">Email</label>
+                    <input id="email-field" type="email" placeholder="Your email" name="email" required>
+                </div>
+                <div>
+                    <label type="text" for="age">Age</label>
+                    <select id="age" name="age" required>
+                        <option type="text" value="under-20">Under 20</option>
+                        <option type="text" value="20s">20-29</option>
+                        <option type="text" value="30s">30-39</option>
+                        <option type="text" value="40s">40-49</option>
+                        <option type="text" value="50s">50-59</option>
+                        <option type="text" value="60+">60+</option>
+                    </select>
+                </div>
+            </fieldset>
+            <!-- Details section end-->
+            <br>
+            <!-- Products section-->
+            <fieldset>
+                <legend>Our products</legend>    
+                <div>
+                    <label for="fav-coffe">What is your favourite coffee?</label>
+                    <input id="fav-coffee" name="fav-coffee" list="coffee" required>
+                    <datalist id="coffee">
+                        <option value="Latte"></option>
+                        <option value="Americano"></option>
+                        <option value="Cappuccino"></option>
+                        <option value="Espresso"></option>
+                        <option value="Flat-white"></option>
+                    </datalist>
+                </div>
+        
+                <p>How many cups of coffee do you drink a day?</p>
+        
+                <input id="0-2cups-radio" name="cups-a-day" value="0-2cups" type="radio" required>
+                <label for="0-2cups-radio">0 to 2 cups</label>
+        
+                <input id="3-5cups-radio" name="cups-a-day" value="3-5cups" type="radio" required>
+                <label for="3-5cups-radio">3 to 5 cups</label>
+        
+                <input id="6-8cups-radio" name="cups-a-day" value="6-8cups" type="radio" required>
+                <label for="6-8cups-radio">6 to 8 cups</label>
+        
+                <input id="9plus-cups-radio" name="cups-a-day" value="9plus-cups" type="radio" required>
+                <label for="9plus-cups-radio">9 or more cups</label>
+        
+                <p>How often do you visit Coders Coffeehouse?</p>
+        
+                <input type="radio" id="once-a-week" value="once-a-week" name="visit-frequency" required>
+                <label for="once-a-week">Once a week</label>
+                
+                <input type="radio" id="twice-a-week" value="twice-a-week" name="visit-frequency" required>
+                <label for="twice-a-week">Twice a week</label>
+        
+                <input type="radio" id="once-a-fortnight" value="once-a-fortnight" name="visit-frequency" required>
+                <label for="once-a-fortnight">Once a fortnight</label> 
+                
+                <input type="radio" id="not-often" value="not-often" name="visit-frequency" required>
+                <label for="not-often">Not often</label> 
+        
+                <p class="bold">Which of our coders coffeehouse snacks do you enjoy?</p>
+        
+                <div>
+                    <input type="checkbox" id="brownies-checkbox" name="brownies">
+                    <label for="brownies-checkbox">Brownies</label>
+                </div>        
+                <div>
+                    <input type="checkbox" id="cookies-checkbox" name="cookies">
+                    <label for="cookies-checkbox">Cookies</label>
+                </div>        
+                <div>
+                    <input type="checkbox" id="nachos-checkbox" name="nachos">
+                    <label for="nachos-checkbox">Nachos</label>
+                </div>        
+                <div>
+                    <input type="checkbox" id="croissants-checkbox" name="croissants">
+                    <label for="croissants-checkbox">Croissants</label>
+                </div>                
+                <div>
+                    <input type="checkbox" id="scones-checkbox" name="scones">
+                    <label for="scones-checkbox">Scones</label>
+                </div>
+            </fieldset>
+            <!-- Product section end-->
+            <br>            
+            <!-- Feedback section-->
+            <fieldset>
+                <legend>Feedback</legend>
+                <div>
+                    <label for="feedback">What can we do to improve your experience with us?</label>
+                    <br>
+                    <textarea id="feedback" rows="10" cols="50" placeholder="your feedback" name="feedback" required></textarea>
+                </div>
+            </fieldset>
+            <!-- Feedback section end-->
+            <br>        
+            <div>
+                <button type="submit"><strong>Enter prize draw</strong></button>
+                <button type="reset">Reset Form</button>                
+            </div>
+        </form>
+        <!-- Form end-->
+    </body>
+</html> 
