@@ -1,0 +1,10 @@
+div {
+	height: 300px;
+	border: 1px solid black;
+	padding: 1rem;
+	margin-bottom: 1px;
+}
+
+nav {
+	margin-bottom: 10px;
+}
