@@ -1,0 +1,16 @@
+section {
+    padding: 0 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+figure {
+    margin: 0 auto;
+}
+.image {
+    max-width: 400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
