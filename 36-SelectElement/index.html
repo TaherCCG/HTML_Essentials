@@ -1,0 +1,25 @@
+<!-- Create a form with a field-of-study select box -->
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+    </head>
+    <!--
+        The <select> element is used to create a drop-down list.
+        The <select> element is most often used in a form, to collect user input.
+        The name attribute is needed to reference the form data after the form is submitted (if you omit the name attribute, no data from the drop-down list will be submitted).
+        The id attribute is needed to associate the drop-down list with a label.
+    -->
+    <body>
+        <form>
+            <label for="fields-of-study">Select Field of Study:</label>
+            <select id="fields-of-study" name="fields-of-study">
+                <option value="math">Math</option>  <!-- The <option> tags inside the <select> element define the available options in the drop-down list.-->
+                <option value="science">Science</option>
+                <option value="finance">Finance</option>
+                <option value="history">History</option>
+                <option value="languages">Languages</option>
+            </select>
+        </form>
+    </body>
+</html>
+
