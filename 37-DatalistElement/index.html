@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Datalist</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <!-- 
+    The <datalist> tag specifies a list of pre-defined options for an <input> element.
+    The <datalist> tag is used to provide an "autocomplete" feature for <input> elements. 
+    Users will see a drop-down list of pre-defined options as they input data.
+    The <datalist> element's id attribute must be equal to the <input> element's list attribute (this binds them together).
+  -->
+  <body>
+    <form method="post" action="https://formdump.codeinstitute.net/">
+        <label for="favorite-color">What's your favorite color?</label>
+        <input type="text" id="favorite-color" name="fav-color" list="colors">
+        <datalist id="colors">
+            <option value="Red"></option>
+            <option value="Orange"></option>
+            <option value="Yellow"></option>
+            <option value="Green"></option>
+        </datalist>
+        <input type="submit">
+    </form>
+    
+  </body>
+</html>
