@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Aria Label</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+  </head>
+  
+  <body>
+    
+        <div id="menu">
+            <a href="#about" aria-label="Jump to the About section">About</a>
+            <a href="#contact" aria-label="Jump to the Contact section">Contact</a>
+            
+        </div>
+        <div id="about">
+            <h1 class="full-height">About</h1>
+        </div>
+        <div id="contact">
+            <h1 class="full-height">Contact</h1>
+        </div>
+  </body>
+<!--
+  aria-label allows us to specify a string to be used as the accessible label. This overrides any 
+  other native labeling mechanism, such as a label element — for example, if a button has both text 
+  content and an aria-label, only the aria-label value will be used.
+  
+  You might use an aria-label attribute when you have some kind of visual indication of an element's purpose, 
+  such as a button that uses a graphic instead of text, but still need to clarify that purpose for anyone who 
+  cannot access the visual indication, such as a button that uses only an image to indicate its purpose.
+-->
